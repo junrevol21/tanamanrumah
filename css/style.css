@@ -1,0 +1,55 @@
+/* TanamanRumah — tema sederhana, mobile-first */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  color: #2d3a2f;
+  background: #f7faf6;
+}
+.container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+header { background: #2f6b3a; color: #fff; padding: 14px 0; position: sticky; top: 0; z-index: 10; }
+.header-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.logo { color: #fff; font-weight: 700; font-size: 1.25rem; text-decoration: none; }
+nav a { color: #e8f5e9; text-decoration: none; margin-left: 14px; font-size: 0.95rem; }
+nav a:hover { text-decoration: underline; }
+
+.hero { padding: 48px 0 28px; }
+.hero h1 { font-size: 2rem; margin-bottom: 12px; color: #1f4528; }
+.hero p { font-size: 1.05rem; color: #4a5b4d; }
+
+.artikel-list { padding: 12px 0 32px; }
+.artikel-list h2 { font-size: 1.4rem; margin-bottom: 16px; color: #1f4528; }
+.kartu {
+  background: #fff; border: 1px solid #dde8dd; border-radius: 10px;
+  padding: 18px 20px; margin-bottom: 16px;
+}
+.kartu h3 { margin-bottom: 6px; }
+.kartu h3 a { color: #256e2f; text-decoration: none; }
+.kartu h3 a:hover { text-decoration: underline; }
+.kartu p { color: #526054; font-size: 0.98rem; }
+
+.tentang { background: #e9f3e9; border-radius: 10px; padding: 20px; margin-bottom: 32px; }
+.tentang h2 { font-size: 1.2rem; color: #1f4528; margin-bottom: 8px; }
+
+article.post h1 { font-size: 1.7rem; margin: 28px 0 10px; color: #1f4528; }
+article.post .meta { color: #7a8b7d; font-size: 0.9rem; margin-bottom: 20px; }
+article.post h2 { font-size: 1.3rem; margin: 26px 0 10px; color: #256e2f; }
+article.post h3 { font-size: 1.1rem; margin: 20px 0 8px; color: #2d3a2f; }
+article.post p { margin-bottom: 14px; }
+article.post ul, article.post ol { margin: 0 0 14px 24px; }
+article.post li { margin-bottom: 6px; }
+article.post img { max-width: 100%; border-radius: 8px; }
+article.post table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.95rem; }
+article.post th, article.post td { border: 1px solid #dde8dd; padding: 8px 10px; text-align: left; }
+article.post th { background: #e9f3e9; }
+
+.cta {
+  background: #e9f3e9; border-left: 4px solid #2f6b3a; border-radius: 8px;
+  padding: 16px 18px; margin: 22px 0;
+}
+.cta a { color: #256e2f; font-weight: 600; }
+
+.afiliasi-disclaimer { font-size: 0.85rem; color: #7a8b7d; border-top: 1px solid #dde8dd; padding-top: 14px; margin-top: 30px; }
+
+footer { background: #2f3d31; color: #cfdccf; padding: 18px 0; margin-top: 30px; font-size: 0.9rem; }
