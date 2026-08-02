@@ -17,6 +17,12 @@ nav a:hover { text-decoration: underline; }
 .hero { padding: 48px 0 28px; }
 .hero h1 { font-size: 2rem; margin-bottom: 12px; color: #1f4528; }
 .hero p { font-size: 1.05rem; color: #4a5b4d; }
+.hero-cta { margin-top: 18px; }
+.btn {
+  display: inline-block; background: #2f6b3a; color: #fff; text-decoration: none;
+  padding: 12px 22px; border-radius: 8px; font-weight: 600;
+}
+.btn:hover { background: #256e2f; }
 
 .artikel-list { padding: 12px 0 32px; }
 .artikel-list h2 { font-size: 1.4rem; margin-bottom: 16px; color: #1f4528; }
