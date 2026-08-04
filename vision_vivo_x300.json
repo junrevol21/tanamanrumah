@@ -1,0 +1,19 @@
+{
+  "misi": "Beli Vivo X300 Pro",
+  "visi": "Cepi + open tracking agar kamu punya target nyata yang bisa dimonitor, bukan cuma angan.",
+  "harga_estimasi": 17000000,
+  "harga_pasti": null,
+  "target_lunas": null,
+  "update_terakhir": "2026-08-03",
+  "aliran_pendapatan": [
+    {"nama": "YouTube timelapse (pipeline auto)", "per_bulan_estimasi": 0, "kumpul_sekarang": 0},
+    {"nama": "Gumroad ebook (auto, 1-4/bulan)", "per_bulan_estimasi": 40000, "kumpul_sekarang": 0},
+    {"nama": "TikTok affiliate (4 produk x 2 video)", "per_bulan_estimasi": 50000, "kumpul_sekarang": 0},
+    {"nama": "EarnApp + Pawns (bandwidth pasif)", "per_bulan_estimasi": 80000, "kumpul_sekarang": 0},
+    {"nama": "Tabungan/extras dari gaji", "per_bulan_estimasi": 0, "kumpul_sekarang": 0}
+  ],
+  "jalur_cepat": "Rilis 8 video TikTok yang siap + promosi 1 ebook Gumroad (paling cepat menghasilkan daripada passive).",
+  "target_per_bulan_gabungan": 200000,
+  "ramalan_lini": "Dengan sekitar Rp200rb/bulan dari semua aliran, butuh ~85 bulan (7 tahun) untuk full via hanya cuan — jadi fokus juga ada tabungan + jalur cepat dari aliran yang mulai berjalan.",
+  "catatan_jujur": "Passive streams kecil — jangan andalkan penuh. Tabung sebagian gaji + dorong aliran yang mulai berjalan. Tracker ini dipakai untuk review bulanan cek_payout."
+}
