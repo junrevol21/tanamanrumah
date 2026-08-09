@@ -1,0 +1,13 @@
+{
+  "bot_token": "8638692750:AAHG07XgjDcgdCGCxVBtOfsE7Rcr6NQ_q4w",
+  "allowed_users": [
+    591764742
+  ],
+  "default_model": "flash",
+  "agentapi_path": "C:\\Users\\ASUS\\.gemini\\antigravity\\bin\\agentapi.bat",
+  "poll_interval_seconds": 2,
+  "max_poll_attempts": 90,
+  "downloads_dir": "C:\\Users\\ASUS\\.gemini\\antigravity\\scratch\\telegram_bot\\downloads",
+  "group_chat_id": -5571894923,
+  "group_name": "Team AI Jun"
+}

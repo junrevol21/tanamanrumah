@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "C:\Users\ASUS\.gemini\antigravity\telegram_bot\bot.py", line 47, in <module>
+    from telegram.ext import (
+    ...<5 lines>...
+    )
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\telegram\ext\__init__.py", line 69, in <module>
+    from ._application import Application, ApplicationHandlerStop
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\telegram\ext\_application.py", line 53, in <module>
+    from telegram.ext._updater import Updater
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\telegram\ext\_updater.py", line 38, in <module>
+    from telegram.ext._utils.webhookhandler import WebhookAppClass, WebhookServer
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\telegram\ext\_utils\webhookhandler.py", line 31, in <module>
+    import tornado.web
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\web.py", line 88, in <module>
+    from tornado.httpserver import HTTPServer
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\httpserver.py", line 32, in <module>
+    from tornado.http1connection import HTTP1ServerConnection, HTTP1ConnectionParameters
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\http1connection.py", line 34, in <module>
+    from tornado import iostream
+  File "<frozen importlib._bootstrap>", line 1431, in _handle_fromlist
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\__init__.py", line 66, in __getattr__
+    return importlib.import_module("." + name, __name__)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\iostream.py", line 40, in <module>
+    from tornado.netutil import ssl_wrap_socket, _client_ssl_defaults, _server_ssl_defaults
+  File "C:\Users\ASUS\AppData\Local\hermes\hermes-agent\venv\Lib\site-packages\tornado\netutil.py", line 35, in <module>
+    _client_ssl_defaults = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
+  File "C:\Python314\Lib\ssl.py", line 757, in _create_unverified_context
+    context = SSLContext(protocol)
+  File "C:\Python314\Lib\ssl.py", line 438, in __new__
+    self = _SSLContext.__new__(cls, protocol)
+TypeError: 'Purpose' object cannot be interpreted as an integer

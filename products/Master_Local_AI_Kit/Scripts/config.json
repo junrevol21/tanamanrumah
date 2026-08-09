@@ -1,0 +1,11 @@
+{
+  "bot_token": "PASTE_TOKEN_DARI_BOTFATHER_DI_SINI",
+  "allowed_users": [],
+  "default_model": "auto",
+  "agentapi_path": "",
+  "poll_interval_seconds": 2,
+  "max_poll_attempts": 5,
+  "downloads_dir": "downloads",
+  "group_chat_id": "",
+  "group_name": ""
+}
